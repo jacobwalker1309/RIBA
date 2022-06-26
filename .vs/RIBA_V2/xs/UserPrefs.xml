@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{003D1F67-9BCF-4205-A240-B929995796FC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RIBA_TEST_V2/UnitTest1.cs">
+    <Files>
+      <File FileName="RIBA_V2/Controllers/HomeController.cs" Line="57" Column="1" />
+      <File FileName="RIBA_V2/Services/ICalcService.cs" />
+      <File FileName="RIBA_V2/Services/CalcService.cs" />
+      <File FileName="RIBA_V2/Services/ITestService.cs" />
+      <File FileName="RIBA_V2/Services/TestService.cs" />
+      <File FileName="RIBA_V2/Startup.cs" />
+      <File FileName="RIBA_V2/Data/DataContext.cs" />
+      <File FileName="RIBA_V2/Views/Home/Index.cshtml" />
+      <File FileName="RIBA_V2/Models/OrderEncapsulationDto.cs" />
+      <File FileName="RIBA_V2/Entities/Customer.cs" />
+      <File FileName="RIBA_V2/Entities/Order.cs" />
+      <File FileName="RIBA_V2/Entities/OrderItem.cs" />
+      <File FileName="RIBA_V2/Repositories/IRepository.cs" />
+      <File FileName="RIBA_V2/Repositories/Repository.cs" />
+      <File FileName="RIBA_TEST_V2/UnitTest1.cs" Line="35" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RIBA_V2" expanded="True">
+            <Node name="RIBA_TEST_V2" expanded="True" selected="True" />
+            <Node name="RIBA_V2" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="RIBA_V2" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.RIBA__TEST__V2 FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RIBA__V2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jacobwalker/Projects/RIBA_V2/RIBA_V2/Controllers/HomeController.cs" relfile="RIBA_V2/Controllers/HomeController.cs" line="45" column="1" />
+      <Breakpoint file="/Users/jacobwalker/Projects/RIBA_V2/RIBA_Test/UnitTest1.cs" relfile="RIBA_Test/UnitTest1.cs" line="12" column="1" />
+      <Breakpoint file="/Users/jacobwalker/Projects/RIBA_V2/RIBA_Test/UnitTest1.cs" relfile="RIBA_Test/UnitTest1.cs" line="19" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

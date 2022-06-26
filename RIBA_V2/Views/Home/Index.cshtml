@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">RIBA</h1>
+</div>
+
+
+<table class="table" id="table_id">
+    <thead>
+        <tr>
+            <th>CustomerId</th>
+            <th>CustomerName</th>
+            <th>OrderId</th>
+            <th>Order Name</th>
+            <th>Order Date</th>
+            <th>Order Total</th>
+        </tr>
+    </thead>
+</table>
+
+@section scripts {
+
+    <script>
+
+        $(document).ready(function () {
+            $('#table_id').DataTable({
+                "filter": true,
+                "orderMulti": true,
+                "ajax": {
+                    "url": "Home/GetSerializedData", dataSrc:"",
+                    "type": "GET",
+                    "datatype": "json",
+                    "drawCallback": function (json) {
+                        console.log(json);
+                    }
+                },
+                "columns": [
+                    { "data": "CustomerId", "autoWidth": true },
+                    { "data": "CustomerName", "autoWidth": true },
+                    { "data": "OrderId", "autoWidth": true },
+                    { "data": "OrderDescription", "autoWidth": true },
+                    { "data": "OrderTime", "autoWidth": true },
+                    { "data": "TotalCost", "autoWidth": true }
+                ]
+            });
+        });
+
+    </script>
+    
+}
